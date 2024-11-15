@@ -276,6 +276,7 @@ body {
             font-weight: $fw-bold;
             border-radius: 0 $padding-XS;
             width: max-content;
+            margin: 0 auto 8px auto;
         }
 
         .es-header {
@@ -552,14 +553,6 @@ body {
             height: 4em;
         }
 
-        .es-products__title--mobile {
-            display: none;
-        }
-
-        .es-products__title--desktop {
-            display: block;
-        }
-
         .es-products {
             display: flex;
         }
@@ -583,6 +576,7 @@ body {
 
         .es-products__single {
             border-radius: 0 0 0 $padding-XS;
+            font-size: 18px;
         }
     }
 
@@ -672,8 +666,9 @@ body {
 
         .es-cross__left {
             justify-content: center;
-            width: 40%;
+            width: 42%;
             gap: $padding-L;
+            padding-top: 130px;
         }
 
         .es-cross__wrapper {
@@ -708,6 +703,9 @@ body {
 
         .es-products__right {
             width: 46%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .es-ekspert {
@@ -717,6 +715,7 @@ body {
         .es-ekspert__left {
             width: 54%
         }
+
         .es-ekspert__right {
             width: 46%;
         }

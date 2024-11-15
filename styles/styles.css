@@ -231,6 +231,7 @@ body {
   border-radius: 0 8px;
   width: -moz-max-content;
   width: max-content;
+  margin: 0 auto 8px auto;
 }
 #es-rc #es-rc-content .es-cross .es-header {
   color: #79CC96;
@@ -459,12 +460,6 @@ body {
   #es-rc #es-rc-content .es-cross__desc {
     height: 4em;
   }
-  #es-rc #es-rc-content .es-products__title--mobile {
-    display: none;
-  }
-  #es-rc #es-rc-content .es-products__title--desktop {
-    display: block;
-  }
   #es-rc #es-rc-content .es-products {
     display: flex;
   }
@@ -484,6 +479,7 @@ body {
   }
   #es-rc #es-rc-content .es-products__single {
     border-radius: 0 0 0 8px;
+    font-size: 18px;
   }
 }
 @media (min-width: 720px) {
@@ -556,8 +552,9 @@ body {
   }
   #es-rc #es-rc-content .es-cross__left {
     justify-content: center;
-    width: 40%;
+    width: 42%;
     gap: 32px;
+    padding-top: 130px;
   }
   #es-rc #es-rc-content .es-cross__wrapper {
     padding: 0 16px;
@@ -587,6 +584,9 @@ body {
   }
   #es-rc #es-rc-content .es-products__right {
     width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   #es-rc #es-rc-content .es-ekspert {
     display: flex;
