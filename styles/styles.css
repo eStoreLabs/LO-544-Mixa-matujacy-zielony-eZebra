@@ -330,13 +330,13 @@ body {
   font-weight: 700;
 }
 #es-rc #es-rc-content .es-products__single:nth-child(1) {
-  background-color: #3FB3EE;
-}
-#es-rc #es-rc-content .es-products__single:nth-child(2) {
   background-color: #FAB283;
 }
-#es-rc #es-rc-content .es-products__single:nth-child(3) {
+#es-rc #es-rc-content .es-products__single:nth-child(2) {
   background-color: #79CC96;
+}
+#es-rc #es-rc-content .es-products__single:nth-child(3) {
+  background-color: #3FB3EE;
 }
 #es-rc #es-rc-content .es-ekspert__left img {
   -o-object-fit: cover;

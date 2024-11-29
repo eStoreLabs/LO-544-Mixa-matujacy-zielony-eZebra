@@ -396,15 +396,15 @@ body {
         }
 
         &__single:nth-child(1) {
-            background-color: $color-blue--lighter;
-        }
-
-        &__single:nth-child(2) {
             background-color: $color-orange;
         }
 
-        &__single:nth-child(3) {
+        &__single:nth-child(2) {
             background-color: $color-green;
+        }
+
+        &__single:nth-child(3) {
+            background-color: $color-blue--lighter;
         }
     }
 
